@@ -41,6 +41,7 @@
         <module>sonar-apex-plugin</module>
         <module>apex-squid</module>
         <module>apex-checks</module>
+        <module>sslr-apex-toolkit</module>
     </modules>
 
     <properties>

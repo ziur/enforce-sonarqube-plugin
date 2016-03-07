@@ -118,4 +118,12 @@ public enum ApexKeyword implements TokenType {
         return Boolean.FALSE;
     }
 
+    public static String[] keywordValues() {
+        ApexKeyword[] keywordsEnum = ApexKeyword.values();
+        String[] keywords = new String[keywordsEnum.length];
+        for (int i = 0; i < keywords.length; i++) {
+            keywords[i] = keywordsEnum[i].getValue();
+        }
+        return keywords;
+    }
 }
